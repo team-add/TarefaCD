@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class CodeDaniel{
+  public static void main(String[]  args){
+    int[] miArray= new int[5];
+    
+    //escribimos en el array
+    for(int i=0;i<5;i++)
+     miArray[i] =i*2;
+    
+    //leemos del array 
+    for(int i=0;i<5;i++)
+     System.out.println("miArray[" + i +"]:"  + miArray[i]);
+  }
+}
